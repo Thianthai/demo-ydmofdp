@@ -1,0 +1,33 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Launchpad App Descriptor Item",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_ALV5_DEFAULT"
+  },
+  "ui5AppDetails": {
+    "appId": "ydmofdp"
+  },
+  "navigation": {
+    "targetMappingId": "YDMOFDP_FLP_TM",
+    "semanticObject": "YDMOFDP",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "YDMOFDP_FLP_AL",
+      "tileType": "static",
+      "standard": {
+        "title": "Demo Form Data Provider",
+        "subtitle": "YDMOFDP"
+      }
+    }
+  ]
+}

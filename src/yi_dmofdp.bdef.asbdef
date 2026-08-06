@@ -1,0 +1,15 @@
+unmanaged implementation in class ybp_i_dmofdp unique;
+strict ( 1 ); //Uncomment this line in order to enable strict mode 2. The strict mode has two variants (strict(1), strict(2)) and is prerequisite to be future proof regarding syntax and to be able to release your BO.
+
+define behavior for YI_DMOFDP //alias <alias_name>
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+//  create ( authorization : global );
+//  update;
+//  delete;
+  field ( readonly ) CompanyCode, JournalEntry, FiscalYear;
+  action PrintJournal result[1] YI_DMOFDP_FILE;
+}

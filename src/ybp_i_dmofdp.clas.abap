@@ -1,0 +1,9 @@
+CLASS ybp_i_dmofdp DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF yi_dmofdp.
+protected section.
+private section.
+ENDCLASS.
+
+
+
+CLASS YBP_I_DMOFDP IMPLEMENTATION.
+ENDCLASS.

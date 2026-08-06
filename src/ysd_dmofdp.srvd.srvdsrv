@@ -1,0 +1,6 @@
+@EndUserText.label: 'Demo Form Data Provider'
+@ObjectModel.leadingEntity.name: 'YI_DMOFDP'
+define service YSD_DMOFDP {
+  expose YI_DMOFDP      as Header;
+  expose YI_DMOFDP_ITEM as Item;
+}
